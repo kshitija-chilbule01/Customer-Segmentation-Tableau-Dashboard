@@ -6,6 +6,9 @@
 - [Data Collection](#data-collection)
 - [Tableau Dashboard Preview](#tableau-dashboard-preview)
 - [Summary of Insights](#summary-of-insights)
+- [MySQL Queries for KPI's Validation](#mysql-queries-for-kpis-validation)
+- [Recommended Retention Strategies](#recommended-retention-strategies)
+- [Conclusion](#conclusion)
 
 ## Project Overview
 This project focuses on developing an interactive **Customer Segmentation Dashboard** in Tableau for a fictional FoodTech company, **SpicyFood**. By leveraging **RFM (Recency, Frequency, and Monetary)** Analysis, the goal is to segment customers based on their purchasing behavior to better understand engagement patterns and inform strategic decision-making. The segmentation provides clarity on who the company’s most valuable customers are, who is at risk of churning, and how to tailor marketing efforts accordingly.
@@ -151,3 +154,12 @@ FROM spicyfood_data
 GROUP BY `Customer Tiers`, Gender
 ORDER BY `Customer Tiers`, Percentage DESC;
 ```
+
+## Recommended Retention Strategies
+- **Champions:** SpicyFood should enhance its loyalty by offering VIP programs, exclusive deals, and early access to new products.
+- **At-Risk Customers:** Implement reactivation campaigns with targeted discounts and reminders of past positive experiences to encourage repeat purchases.
+- **Promising Customers:** Build trust and engagement through personalized recommendations and welcome campaigns to nurture long-term relationships.
+
+## Conclusion
+With this interactive Tableau dashboard, SpicyFood’s management can track customer trends, monitor spending behavior, and implement effective retention strategies. By continuously analyzing these insights, the company can foster long-term customer loyalty and maximize growth opportunities.
+
